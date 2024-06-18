@@ -3,12 +3,22 @@
 ```console
 sudo apt update -y && sudo apt upgrade -y
 
+```
+#
+
+```console
+
 curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/install_aligned.sh | bash
 source /root/.bashrc
 
-curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/get_proof_test_files.sh | bash
 ```
 #
+
+```console
+
+curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/get_proof_test_files.sh | bash
+```
+
 
 ```console
 rm -rf ~/aligned_verification_data/ &&
