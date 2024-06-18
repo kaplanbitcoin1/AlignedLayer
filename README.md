@@ -1,4 +1,4 @@
-Sunucuyu güncelleyelim
+- Sunucumuzu güncelleyelim
 
 
 #
@@ -9,6 +9,8 @@ sudo apt update -y && sudo apt upgrade -y
 ```
 #
 
+- Gerekli dosyaları yükleyelim
+
 ```console
 
 curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/install_aligned.sh | bash
@@ -17,11 +19,14 @@ source /root/.bashrc
 ```
 #
 
+- Proof test dosyasını çekelim
+
 ```console
 
 curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/get_proof_test_files.sh | bash
 ```
 
+- Bu kısmı tek komut halinde girelim
 
 ```console
 rm -rf ~/aligned_verification_data/ &&
@@ -32,3 +37,7 @@ aligned submit \
 --aligned_verification_data_path ~/aligned_verification_data \
 --conn wss://batcher.alignedlayer.com
 ```
+
+- Çıkan komutları ss alıp, verilen tx komutunu Twitter'da AlignedLayer'i etiketleyerek paylaşalım. Aligned Discord adresine gidip testnet bölümünde paylaştığımız twitter gönderisinin linkini burada paylaşalım. 
+
+- İşlemler bu kadar.
