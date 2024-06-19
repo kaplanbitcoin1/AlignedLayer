@@ -38,8 +38,8 @@ aligned submit \
 --conn wss://batcher.alignedlayer.com
 ```
 
-- Verilen çıktıyı ss alıp, tx url'sini Twitter'da AlignedLayer'i etiketleyerek paylaşalım.
+- Verilen çıktıyı ss alıp, tx url'sini X'te AlignedLayer'i etiketleyerek paylaşalım.
   
-- Aligned Discord adresine gidip testnet bölümünde paylaştığımız twitter gönderisinin linkini burada paylaşalım. 
+- Aligned Discord adresine gidip testnet bölümünde paylaştığımız (X) gönderisinin linkini burada paylaşalım. 
 
 - İşlemler bu kadar.
